@@ -1,0 +1,135 @@
+@media (max-width: 576px) {
+    .hero_part {
+      background-size: 1000px auto;
+      background-position: top left;
+    }
+    .hero_con {
+      text-align: center;
+    }
+    .hero_con h1 {
+      font-size: 30px;
+      color: #ffc000;
+    }
+    .hero_con p {
+      font-size: 18px;
+      padding: 8px 0;
+    }
+    .hero_btn {
+      height: 40px;
+      width: 180px;
+      line-height: 40px;
+      margin: auto;
+    }
+    .about_con {
+      width: 100%;
+    }
+    .choose_con_main {
+      flex-direction: column-reverse;
+    }
+    .choose_con {
+      text-align: center;
+    }
+    .choose_img img {
+      width: 100%;
+    }
+    .choose_btn {
+      margin: auto;
+    }
+    .menu {
+      display: none;
+    }
+    .collapse_btn {
+      display: block;
+    }
+    .contact_form_main {
+      width: 100%;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 768px) {
+    .hero_part {
+      background-size: 1000px auto;
+      background-position: top left;
+    }
+    .hero_con {
+      text-align: center;
+    }
+    .hero_con h1 {
+      font-size: 30px;
+      color: #ffc000;
+    }
+    .hero_con p {
+      font-size: 18px;
+      padding: 8px 0;
+    }
+    .hero_btn {
+      height: 40px;
+      width: 180px;
+      line-height: 40px;
+      margin: auto;
+    }
+    .about_con {
+      width: 50%;
+    }
+    .choose_con_main {
+      flex-direction: column-reverse;
+    }
+    .choose_con {
+      text-align: center;
+    }
+    .choose_btn {
+      margin: auto;
+    }
+    .menu {
+      display: none;
+    }
+    .collapse_btn {
+      display: block;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .hero_con h1 {
+      font-size: 36px;
+      color: #ffc000;
+    }
+    .hero_con p {
+      font-size: 18px;
+      padding: 8px 0;
+    }
+    .hero_btn {
+      height: 40px;
+      width: 180px;
+      line-height: 40px;
+    }
+    .about_con {
+      width: 50%;
+    }
+    .choose_con_main {
+      flex-direction: column-reverse;
+    }
+    .choose_con {
+      text-align: center;
+    }
+    .choose_btn {
+      margin: auto;
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .hero_con h1 {
+      font-size: 46px;
+    }
+    .hero_con p {
+      font-size: 22px;
+    }
+    .choose_con h3 {
+      font-size: 40px;
+    }
+    .choose_con p {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1201px) and (max-width: 1400px) {
+    /*Default Screen*/
+  }
+  @media (min-width: 1401px) {
+  }
+  
